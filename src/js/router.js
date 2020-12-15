@@ -1,21 +1,21 @@
 const routers = [
     {
-        path:'/nav-history/',
+        path:'/',
         component: fun1,
         meta: { auth: false}
     },
     {
-        path:'/nav-history/page1',
+        path:'/page1',
         component: fun2,
         meta: { auth: true}
     },
     {
-        path:'/nav-history/page2',
+        path:'/page2',
         component: fun3,
         meta: { auth: false}
     },
     {
-        path:'/nav-history/page3',
+        path:'/page3',
         component: fun4,
         meta: { auth: false}
     }
@@ -83,3 +83,5 @@ function fun4 () {
 function fun5 () {
     title.innerHTML = 'Not found';
 }
+
+
