@@ -1,8 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /nav-history
+RewriteBase /
 RewriteRule ^subdirectoryName/index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /nav-history/index.html [L]
+RewriteRule . /index.html [L]
 </IfModule>
