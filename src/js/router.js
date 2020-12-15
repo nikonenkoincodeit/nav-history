@@ -1,21 +1,21 @@
 const routers = [
     {
-        path:'/',
+        path:'/nav-history/',
         component: fun1,
         meta: { auth: false}
     },
     {
-        path:'/page1',
+        path:'/nav-history/page1',
         component: fun2,
         meta: { auth: true}
     },
     {
-        path:'/page2',
+        path:'/nav-history/page2',
         component: fun3,
         meta: { auth: false}
     },
     {
-        path:'/page3',
+        path:'/nav-history/page3',
         component: fun4,
         meta: { auth: false}
     }
