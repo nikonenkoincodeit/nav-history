@@ -1,0 +1,8 @@
+.list-categories {
+    display: flex;
+}
+
+.category {
+    list-style: none;
+    margin-right: 30px;
+}
